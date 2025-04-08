@@ -25,7 +25,8 @@ class Config:
     # Google reCAPTCHA
     RECAPTCHA_SITE_KEY = os.environ.get('RECAPTCHA_SITE_KEY') or '6Lfadg4rAAAAACQ_EsCQexqkNh_DGHiWkC79E-zg'  # מפתח בדיקות של Google
     RECAPTCHA_SECRET_KEY = os.environ.get('RECAPTCHA_SECRET_KEY') or '6Lfadg4rAAAAABGC32FlRnbtFf70ztWMvxxXXBX9'  # מפתח סודי לבדיקות
-
+    RECAPTCHA_THRESHOLD = 0.5
+   
     # Contract ABI
     CONTRACT_ABI = [
  {
