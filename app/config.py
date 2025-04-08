@@ -22,6 +22,10 @@ class Config:
     CONTRACT_ADDRESS = "0xd9145CCE52D386f254917e481eB44e9943F39138"
     CHAIN_ID = 1337
 
+    # Google reCAPTCHA
+    RECAPTCHA_SITE_KEY = os.environ.get('RECAPTCHA_SITE_KEY') or '6Lf8bg4rAAAAAG1fRHZ3vXc05AGPHcwKSbPQBgKp'  # מפתח בדיקות של Google
+    RECAPTCHA_SECRET_KEY = os.environ.get('RECAPTCHA_SECRET_KEY') or '6Lf8bg4rAAAAAJNCzYFY4HENMmFVhbu6oH0ulYrt'  # מפתח סודי לבדיקות
+
     # Contract ABI
     CONTRACT_ABI = [
  {
