@@ -23,8 +23,8 @@ class Config:
     CHAIN_ID = 1337
 
     # Google reCAPTCHA
-    RECAPTCHA_SITE_KEY = os.environ.get('RECAPTCHA_SITE_KEY') or '6Lf8bg4rAAAAAG1fRHZ3vXc05AGPHcwKSbPQBgKp'  # מפתח בדיקות של Google
-    RECAPTCHA_SECRET_KEY = os.environ.get('RECAPTCHA_SECRET_KEY') or '6Lf8bg4rAAAAAJNCzYFY4HENMmFVhbu6oH0ulYrt'  # מפתח סודי לבדיקות
+    RECAPTCHA_SITE_KEY = os.environ.get('RECAPTCHA_SITE_KEY') or '6Lfadg4rAAAAACQ_EsCQexqkNh_DGHiWkC79E-zg'  # מפתח בדיקות של Google
+    RECAPTCHA_SECRET_KEY = os.environ.get('RECAPTCHA_SECRET_KEY') or '6Lfadg4rAAAAABGC32FlRnbtFf70ztWMvxxXXBX9'  # מפתח סודי לבדיקות
 
     # Contract ABI
     CONTRACT_ABI = [
