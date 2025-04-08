@@ -22,10 +22,9 @@ class Config:
     CONTRACT_ADDRESS = "0xd9145CCE52D386f254917e481eB44e9943F39138"
     CHAIN_ID = 1337
 
-    # Google reCAPTCHA v3 settings
-    RECAPTCHA_SITE_KEY = os.environ.get('RECAPTCHA_SITE_KEY') or '6Le3fw4rAAAAAK3_rqyMtMcd0ierf1yIzlc8zwVe'
-    RECAPTCHA_SECRET_KEY = os.environ.get('RECAPTCHA_SECRET_KEY') or '6Le3fw4rAAAAAABhQUoeYn1ekmA1i0Zs2Z0AImeG'  
-    RECAPTCHA_THRESHOLD = 0.5  # Score threshold (0.0 to 1.0, where 1.0 is very likely a good interaction)
+    # Google reCAPTCHA v2 - עדכון למפתחות גרסה 2
+    RECAPTCHA_SITE_KEY = '6LeYjA4rAAAAACw9czE2uPiE6jyHJuB8QhOda8-y'  # יש להחליף במפתח האמיתי שלך
+    RECAPTCHA_SECRET_KEY = '6LeYjA4rAAAAACJo0geQstFMrDSoreqhVuGzULmT'  # יש להחליף במפתח האמיתי שלך
    
     # Contract ABI
     CONTRACT_ABI = [
